@@ -1,0 +1,166 @@
+@media screen and (min-width: 1440px){
+*{
+    margin:0;
+    padding:0;
+}
+@font-face {
+    font-family: Kumbh Sans;
+    src: url(https://fonts.google.com/specimen/Kumbh+Sans);
+  }
+body{
+    height: 100%;
+    width: 100%;
+    background-color:hsl(185, 75%, 39%);
+}
+#main{
+    height: 350px;
+    width:350px;
+    background-color: white;
+    border-radius: 10px;
+    float: left;
+    margin: 140px 550px;
+}
+#main img{
+    float: left;
+    border:5px solid white;
+    border-radius: 50%;
+    margin-left: 125px;
+    margin-top:-50px;
+}
+#svgcard{
+    float: left;
+    margin: 0px 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#main #p1{
+    float: left;
+    font-size: 18px;
+    font-weight:700;
+    color:hsl(229, 23%, 23%);
+    font-family: "Kumbh Sans";
+    margin-top:70px;
+    margin-left:-110px;
+}
+#main #p1 span{
+    color:hsl(0, 0%, 59%);
+    font-weight: 400;
+}
+#main #p2{
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+    float: left;
+    margin-left:-95px;
+    margin-top: 100px;
+    font-family:"kumbh sans";
+}
+#main hr{
+    float: left;
+    width: 348px;
+    margin-top:40px;
+    background-color: hsl(0, 0%, 59%);
+}
+#nav1 p{
+    float: left;
+    display: inline-block;
+    font-size: 18px;
+    font-weight:700;
+    color:hsl(229, 23%, 23%);
+    margin-left: 60px;
+    margin-top: 15px;
+    font-family:"kumbh sans";
+}
+#nav2 p{
+    float: left;
+    display: inline-block;
+    font-size: 12px;
+    font-weight:400;
+    color:hsl(0, 0%, 59%);
+    margin-left: 60px;
+    margin-top: 10px;
+    font-family:"kumbh sans";
+}
+}
+@media screen and (max-width:376px){
+    *{
+        margin:0;
+        padding:0;
+    }
+    @font-face {
+        font-family: Kumbh Sans;
+        src: url(https://fonts.google.com/specimen/Kumbh+Sans);
+      }
+    body{
+        height: 100%;
+        width: 100%;
+        background-color:hsl(185, 75%, 39%);
+    }
+    #main{
+        height: 350px;
+        width:350px;
+        background-color: white;
+        border-radius: 10px;
+        float: left;
+        margin: 150px 12px;
+    }
+    #main img{
+        float: left;
+        border:5px solid white;
+        border-radius: 50%;
+        margin-left: 125px;
+        margin-top:-50px;
+    }
+    #svgcard{
+        float: left;
+        margin: 0px 0px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    #main #p1{
+        float: left;
+        font-size: 18px;
+        font-weight:700;
+        color:hsl(229, 23%, 23%);
+        font-family: "Kumbh Sans";
+        margin-top:70px;
+        margin-left:-110px;
+    }
+    #main #p1 span{
+        color:hsl(0, 0%, 59%);
+        font-weight: 400;
+    }
+    #main #p2{
+        color: hsl(0, 0%, 59%);
+        font-weight: 400;
+        float: left;
+        margin-left:-95px;
+        margin-top: 100px;
+        font-family:"kumbh sans";
+    }
+    #main hr{
+        float: left;
+        width: 348px;
+        margin-top:40px;
+        background-color: hsl(0, 0%, 59%);
+    }
+    #nav1 p{
+        float: left;
+        display: inline-block;
+        font-size: 18px;
+        font-weight:700;
+        color:hsl(229, 23%, 23%);
+        margin-left: 60px;
+        margin-top: 15px;
+        font-family:"kumbh sans";
+    }
+    #nav2 p{
+        float: left;
+        display: inline-block;
+        font-size: 12px;
+        font-weight:400;
+        color:hsl(0, 0%, 59%);
+        margin-left: 60px;
+        margin-top: 10px;
+        font-family:"kumbh sans";
+    }
+}
